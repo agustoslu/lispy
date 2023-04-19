@@ -1,2 +1,0 @@
-# lispy
-A Lisp dialect
