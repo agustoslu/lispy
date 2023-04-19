@@ -2,7 +2,7 @@
 It is meant as a little weekend project and it's just me working through the chapters of the book "Build Your Own Lisp" by Daniel Holden to get better at C and to understand the workings that are under the hood. Below you will find a little guidance, so that you can start getting familiar with the strange looking syntax of the language. On the other hand it should be noted that it barely scratches the surface. To learn more about this reimplementation and the language Lisp itself, you can check out the following links: 
 
 * Build Your Own Lisp [Book](https://www.amazon.com/Build-Your-Lisp-Daniel-Holden/dp/1501006622/) and [Website](http://www.buildyourownlisp.com/)
-* Wikipedia page of [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)
+* Wikipedia page of [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) 
 * ["What Made Lisp Different"](http://www.paulgraham.com/diff.html) by Paul Graham and his [books](http://www.paulgraham.com/books.html)
 * ["Is Lisp Still Unique? Or at Least Different?"](http://norvig.com/Lisp-retro.html) by Peter Norvig
 
@@ -105,6 +105,6 @@ lispy> load "std_lib.lspy"
 This project owes its existence to Daniel Holden's brilliant work on the book ["Build Your Own Lisp"](http://www.buildyourownlisp.com/) and the [MPC library](https://github.com/orangeduck/mpc), which is used for parsing. I am truly thankful for all his efforts that made the project possible.
 
 ## TODO:
-- [ ]Expand standard library
-- [ ]Load the library automatically
+-[ ]Expand standard library
+-[ ]Load the library automatically
 
