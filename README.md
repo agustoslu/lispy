@@ -104,7 +104,7 @@ lispy> load "std_lib.lspy"
 ## Credits
 This project owes its existence to Daniel Holden's brilliant work on the book ["Build Your Own Lisp"](http://www.buildyourownlisp.com/) and the [MPC library](https://github.com/orangeduck/mpc), which is used for parsing. I am truly thankful for all his efforts that made the project possible.
 
-## TODO:
--[ ]Expand standard library
--[ ]Load the library automatically
+## To Do:
+* Expand standard library
+* Load the library automatically
 
