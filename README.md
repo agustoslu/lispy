@@ -2,17 +2,17 @@
 It is meant as a little weekend project and it's just me working through the chapters of the book "Build Your Own Lisp" by Daniel Holden to get better at C and to understand the workings that are under the hood. Below you will find a little guidance, so that you can start getting familiar with the strange looking syntax of the language. On the other hand it should be noted that it barely scratches the surface. To learn more about this reimplementation and the language Lisp itself, you can check out the following links: 
 
 * Build Your Own Lisp [Book](https://www.amazon.com/Build-Your-Lisp-Daniel-Holden/dp/1501006622/) and [Website](http://www.buildyourownlisp.com/)
-* Wikipedia page of [Lisp] (https://en.wikipedia.org/wiki/Lisp_(programming_language)
-* ["What Made Lisp Different"] (http://www.paulgraham.com/diff.html) by Paul Graham and his [books] (http://www.paulgraham.com/books.html)
-* ["Is Lisp Still Unique? Or at Least Different?"] (http://norvig.com/Lisp-retro.html) by Peter Norvig
+* Wikipedia page of [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)
+* ["What Made Lisp Different"](http://www.paulgraham.com/diff.html) by Paul Graham and his [books](http://www.paulgraham.com/books.html)
+* ["Is Lisp Still Unique? Or at Least Different?"](http://norvig.com/Lisp-retro.html) by Peter Norvig
 
 
 ## Installation
-The software is supported by all platforms. Besides the [MPC library] (https://github.com/orangeduck/mpc) which is written by the book's author Daniel Holden, the only other dependency is the library called "editline." On Mac the library comes with Command Line Tools. On Linux you can install editline with `sudo apt-get install libedit-dev`. A C compiler is also needed.
+The software is supported by all platforms. Besides the [MPC library](https://github.com/orangeduck/mpc) which is written by the book's author Daniel Holden, the only other dependency is the library called "editline." On Mac the library comes with Command Line Tools. On Linux you can install editline with `sudo apt-get install libedit-dev`. A C compiler is also needed.
 
 
 ## Basics
-Lispy is a interpreted, [homoiconic] (https://en.wikipedia.org/wiki/Homoiconicity), functional programming language which is written in C and based on Lisp. <br>
+Lispy is a interpreted, [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity), functional programming language which is written in C and based on Lisp. <br>
 
 It consists of 7 lvals - is short for "lisp values". <br>
 
@@ -47,7 +47,7 @@ Error: custom
 
 #### Functions
 
-[Polish Notation] (https://en.wikipedia.org/wiki/Polish_notation) or Prefix Syntax makes life easier and allows our functions and operators to take any number of arguments.
+[Polish Notation](https://en.wikipedia.org/wiki/Polish_notation) or Prefix Syntax makes life easier and allows our functions and operators to take any number of arguments.
 
 ```
 lispy> + 1 2 3 4 5 6 7 8 9
@@ -76,7 +76,7 @@ lispy> add-mult 4 2
 12
 ```
 
-Some clever ways to define your functions and even to define functions that can define functions you can refer [here] (https://buildyourownlisp.com/chapter12_functions#interesting_functions).
+Some clever ways to define your functions and even to define functions that can define functions you can refer [here](https://buildyourownlisp.com/chapter12_functions#interesting_functions).
 
 #### S-Expressions
 By placing the code inside parentheses, we let the interpreter know that the code given has to be evaluated. In the interface every piece of code is an S-Expression by default. It is not the case for external files and due to that we need to make use of parentheses. Make sure you properly place these, since nesting is important, when it comes to evaluating your code and the interpreter will start to evaluate from the most internal one.
@@ -102,7 +102,7 @@ lispy> load "std_lib.lspy"
 ()
 ```
 ## Credits
-This project owes its existence to Daniel Holden's brilliant work on the book ["Build Your Own Lisp"] (http://www.buildyourownlisp.com/) and the [MPC library] (https://github.com/orangeduck/mpc), which is used for parsing. I am truly thankful for all his efforts that made the project possible.
+This project owes its existence to Daniel Holden's brilliant work on the book ["Build Your Own Lisp"](http://www.buildyourownlisp.com/) and the [MPC library](https://github.com/orangeduck/mpc), which is used for parsing. I am truly thankful for all his efforts that made the project possible.
 
 ## TODO:
 - [ ]Expand standard library
